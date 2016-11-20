@@ -3,7 +3,7 @@ library(RMySQL)
 library(DBI)
 library(dbConnect)
 
-mydb=dbConnect(MySQL(),user='nripesh',password='rFceha@!95',dbname='7cot-fall15',host='130.108.85.104')
+mydb=dbConnect(MySQL(),user='nripesh',password='',dbname='7cot-fall15',host='')
 
 
 # Build the members table with the attributes for evaluating user engagement
